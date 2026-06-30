@@ -47,6 +47,7 @@ static const struct partition partition_table[] = {
 	/* OnePlus/Oppo OEM NV backup partitions */
 	{ "/oem/nvbk/static", "oplusstanvbk", "oplusstanvbk_a" },
 	{ "/oem/nvbk/dynamic", "oplusdycnvbk", "oplusdycnvbk" },
+	{ "/oem/nvbk/miscinfo", "oem_miscinfo", "oem_miscinfo" },
 	/* Some OxygenOS firmware versions request this alternative path */
 	{ "/oppo/oem_partion", "oem_stanvbk", "oem_stanvbk" },
 	{}
