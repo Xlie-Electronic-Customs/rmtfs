@@ -45,8 +45,8 @@ static const struct partition partition_table[] = {
 	{ "/boot/modem_tunning", "modem_tunning", "tunning" },
 	{ "/boot/modem_tng", "modem_tng", "tunning" },
 	/* OnePlus/Oppo OEM NV backup partitions */
-	{ "/oem/nvbk/static", "oem_stanvbk", "oem_stanvbk" },
-	{ "/oem/nvbk/dynamic", "oem_dycnvbk", "oem_dycnvbk" },
+	{ "/oem/nvbk/static", "oplusstanvbk", "oplusstanvbk_a" },
+	{ "/oem/nvbk/dynamic", "oplusdycnvbk", "oplusdycnvbk" },
 	/* Some OxygenOS firmware versions request this alternative path */
 	{ "/oppo/oem_partion", "oem_stanvbk", "oem_stanvbk" },
 	{}
